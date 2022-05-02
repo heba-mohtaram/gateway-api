@@ -1,0 +1,28 @@
+{
+  "name": "gateway-api",
+  "version": "1.0.0",
+  "description": "This is a NodeJS project which consolidates the simple-rest-api and traveller-api into one with additional functionality",
+  "main": "src/index.js",
+  "scripts": {
+    "start": "node src/index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/heba-mohtaram/gateway-api.git"
+  },
+  "author": "Heba Mohtaram",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/heba-mohtaram/gateway-api/issues"
+  },
+  "homepage": "https://github.com/heba-mohtaram/gateway-api#readme",
+  "dependencies": {
+    "axios": "^0.27.2",
+    "express-rate-limit": "^6.4.0",
+    "moment": "^2.29.3",
+    "path": "^0.12.7",
+    "redis": "^4.1.0",
+    "winston": "^3.7.2"
+  }
+}
